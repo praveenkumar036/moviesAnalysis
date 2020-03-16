@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>moviesAnalysis-parent</artifactId>
+        <groupId>com.demo.analysis</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ratings-api</artifactId>
+
+    <properties>
+
+        <javaVersion>1.8</javaVersion>
+        <scalaMajorVersion>2.11</scalaMajorVersion>
+        <scalaVersion>${scalaMajorVersion}.8</scalaVersion>
+        <junitVersion>4.4</junitVersion>
+        <sparkVersion>2.3.0</sparkVersion>
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.demo.analysis</groupId>
+            <artifactId>movies-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>
