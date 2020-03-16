@@ -14,10 +14,6 @@
         <module>users-api</module>
         <module>movies-package</module>
         <module>schema</module>
-        <module>schema</module>
-        <module>schema</module>
-        <module>schema</module>
-        <module>schema</module>
     </modules>
 
     <properties>
